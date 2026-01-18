@@ -1,0 +1,40 @@
+name: futly_talent
+description: A talent discovery and player database app with social features
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Navigation
+  go_router: ^14.0.0
+  
+  # State Management
+  provider: ^6.0.0
+  
+  # Local Storage
+  shared_preferences: ^2.2.0
+  
+  # UI/Material
+  google_fonts: ^6.0.0
+  icons_plus: ^4.0.0
+  
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
